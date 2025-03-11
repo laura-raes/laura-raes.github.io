@@ -1,0 +1,30 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+
+ 
+<table style="border:hidden;">
+	<tr>
+		<td>
+			{% if post.image %}{{ post.image }}{% endif %}
+		</td>
+		<td style="vertical-align:top">
+			<h2 class="archive__item-title" itemprop="headline"><a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a></h2>
+			<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+		</td>
+	</tr>
+</table>
+
+</div>
