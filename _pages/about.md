@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-I am Laura, a PhD student at Universiteit Antwerpen.
+I am Laura, a PhD student in the  <a href="http://adrem.uantwerpen.be/">Adrem Data Lab</a> at Universiteit Antwerpen.
