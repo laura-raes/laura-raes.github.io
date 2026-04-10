@@ -222,6 +222,8 @@ collections:
   posters:
     output: true
     permalink: /:collection/:path/
+    sort_by: date
+    sort_order: reverse
   talks:
     output: true
     permalink: /:collection/:path/
