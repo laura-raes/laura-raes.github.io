@@ -8,7 +8,8 @@ author_profile: true
 {% include base_path %}
 
 
-{% for post in site.posters %}
+{% assign sorted_posters = site.posters | sort: 'date' | reverse %}
+{% for post in sorted_posters %}
   {% include archive-single-poster.html %}
 {% endfor %}
 
