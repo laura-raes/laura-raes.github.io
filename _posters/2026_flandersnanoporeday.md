@@ -8,7 +8,7 @@ image: "<img src='/images/2026_flandersnanoporeday.jpg' style='width: 20vw; min-
 
 This poster will be presented at the [Flanders Nanopore Day](https://nanoporeflanders.be/).
 
-<a href="/files/2025_rngs.pdf"><img src= "/images/2026_flandersnanoporeday.jpg" style="border: 1px solid grey;"></a>
+<a href="/files/2026_flandersnanoporeday.pdf"><img src= "/images/2026_flandersnanoporeday.jpg" style="border: 1px solid grey;"></a>
 
 ## Abstract
 
