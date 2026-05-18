@@ -8,6 +8,8 @@ image: "<img src='/images/2026_flandersnanoporeday.jpg' style='width: 20vw; min-
 
 This poster was presented at London Calling 2026.
 
+<a href="/files/2026_flandersnanoporeday.pdf"><img src= "/images/2026_flandersnanoporeday.jpg" style="border: 1px solid grey;"></a>
+
 ## Abstract
 
 Nanopore sequencing is uniquely positioned for real-time diagnostics at the point-of-care, thanks to continuous signal streaming and compact hardware. Direct analysis of raw ionic current (“squiggles”) preserves the data-rich signal while bypassing the conversion to nucleotide sequences, reducing compute to levels suited for miniaturized devices and enabling portable pathogen detection. Despite this potential, algorithmic development is hindered by a fragmented research landscape, suffering from a lack of reproducibility and a reliance on outdated datasets. 
