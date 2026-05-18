@@ -15,16 +15,18 @@
 <div class="{{ include.type | default: "list" }}__item">
 
  
-<table style="border:hidden;">
-	<tr>
-		<td>
-			{% if post.image %}{{ post.image }}{% endif %}
-		</td>
-		<td style="vertical-align:top">
-			<h2 class="archive__item-title" itemprop="headline"><a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a></h2>
-			<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-		</td>
-	</tr>
+<table style="border:hidden; width: 100%;">
+    <tr>
+        <td style="width: 25%; vertical-align: top;">
+            {% if post.image %}{{ post.image }}{% endif %}
+        </td>
+        <td style="vertical-align: top; padding-left: 20px;">
+            <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0;">
+                <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+            </h2>
+            <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+        </td>
+    </tr>
 </table>
 
 </div>
