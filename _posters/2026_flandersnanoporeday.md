@@ -6,7 +6,7 @@ collection: posters
 image: "<img src='/images/2026_flandersnanoporeday.jpg' style='width: 20vw; min-width: 100px; border: 1px solid grey;'>"
 ---
 
-This poster will be presented at the [Flanders Nanopore Day](https://nanoporeflanders.be/).
+This poster was presented at the [Flanders Nanopore Day](https://nanoporeflanders.be/).
 
 <a href="/files/2026_flandersnanoporeday.pdf"><img src= "/images/2026_flandersnanoporeday.jpg" style="border: 1px solid grey;"></a>
 
