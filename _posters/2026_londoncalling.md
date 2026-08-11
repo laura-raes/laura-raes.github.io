@@ -7,7 +7,7 @@ image: "<img src='/images/2026_flandersnanoporeday.jpg' style='width: 20vw; min-
 ---
 
 <div class="notice--warning" markdown="1">
-**Note — August 2026:** the R10 results on this poster are not correct due to a configuration error on my side, the corrected results are considerably better. Final numbers will be in the upcoming paper.
+**August 2026:** the R10 results on this poster are not correct due to a configuration error on my side, the corrected results are considerably better. Final numbers will be in the upcoming paper.
 </div>
 
 This poster was presented at Oxford Nanopore Technologies' [London Calling 2026](https://nanoporetech.com/about/events/conferences/lc26).
